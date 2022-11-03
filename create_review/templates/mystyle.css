@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-color: rgb(255, 255, 255);
 }
 
 /* Add a black background color to the top navigation */
@@ -10,7 +10,6 @@ body {
 
 .topnav a {
   font-family: sans-serif;
-  
 }
 
 /* Style the links inside the navigation bar */
@@ -31,6 +30,25 @@ body {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type="text"] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.application form {
+  text-align: center;
+  border: 2px solid rgb(70, 65, 65);
+  border-radius: 5px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
 }
